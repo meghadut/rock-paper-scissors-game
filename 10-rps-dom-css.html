@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="title">Rock Paper Scissors game</p>
+    <button onclick="
+        let comp1=compMove();
+        game(0,comp1);
+    " class="hand-button-css"><img src="./rock-emoji.png" class="hand-css"></button>
+    <button onclick="   
+        comp1=compMove();
+        game(1,comp1);   
+    " class="hand-button-css"><img src="./paper-emoji.png" class="hand-css"></button>
+    <button onclick="
+        comp1=compMove();
+        game(2,comp1);    
+    " class="hand-button-css"><img src="./scissors-emoji.png" class="hand-css"></button>
+    <p class="js-result result-css"> </p>
+    <p class="js-hands"></p>
+    <p class="js-score"></p>
+   
+    <button onclick="
+    score.yourscore=0,
+    score.computerscore=0,
+    localStorage.removeItem('score'),
+    updateScoree();
+    document.querySelector('.js-result').innerHTML='';
+            document.querySelector('.js-hands').innerHTML='';
+    " class="view">
+        reset
+    </button>
+    
+    <script src="rps.js">
+      
+    </script>
+</body>
+</html>

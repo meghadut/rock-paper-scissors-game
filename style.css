@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(25,25,25);
+    font-family: Arial;
+    color: white;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.hand-css{
+height: 50px;
+
+
+}
+.hand-button-css{
+background-color: transparent;
+border:2px solid white;
+width: 120px;
+height: 120px;
+border-radius: 66px;
+margin-left: 20px;
+
+cursor: pointer;
+}
+
+.result-css{
+font-size: 30px;
+font-weight: bold;
+}
+
+.js-score{
+margin-top: 60px;
+}
+.view{
+border: none;
+font-size: 15px;
+padding: 8px 15px;
+margin: 5px;
+cursor: pointer;
+}
